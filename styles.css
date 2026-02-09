@@ -2,21 +2,30 @@ header {
   background-color: black;
   h1 {
     color: white;
+    padding-left: 4px;
   }
-  p{
-    color: white;
+  nav{
+     p{
+      color: gold;
+      padding-left: 4px;
+    }
+    a {
+      color: gold;
+      padding-left: 4px;
+    } 
   }
+
 }
 main {
   background-color: white;
   img {
     border: 6px solid black;
-    border-radius: 6px;
   }
 }
 footer{
   background-color: #3a3a3a;
   p{
     color: white;
+    padding-left: 4px;
   }
 }
