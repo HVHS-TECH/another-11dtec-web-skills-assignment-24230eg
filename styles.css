@@ -1,11 +1,21 @@
-body {
-    background-color: white;
-  }
 header {
   background-color: black;
   h1 {
     color: white;
   }
+  p{
+    color: white;
+  }
+}
+main {
+  background-color: white;
+  img {
+    border: 6px solid black;
+    border-radius: 6px;
+  }
+}
+footer{
+  background-color: #3a3a3a;
   p{
     color: white;
   }
