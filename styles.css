@@ -1,28 +1,51 @@
+.container {
+  display: grid;
+  grid-template-areas:
+  'menu header header header logo'
+  'main main main main main'
+  'footer footer footer footer footer';
+  background-color: #ffffff;
+}
 header {
+  grid-area: header;
+  text-align: center;
   background-color: black;
   h1 {
     color: white;
-    padding-left: 4px;
-  }
-  nav{
-     p{
-      color: gold;
-      padding-left: 4px;
-    }
-    a {
-      color: gold;
-      padding-left: 4px;
-    } 
   }
 
 }
+.logo {
+  grid-area: logo;
+  align-items: flex-end;
+  background-color: black;
+  img{
+    width: 110px;
+    height: 110px;
+  }
+}
+nav{
+  grid-area: menu;
+  background-color: black;
+   p{
+    color: gold;
+    padding-left: 4px;
+  }
+  a {
+    color: gold;
+    padding-left: 4px;
+  } 
+}
 main {
+  grid-area: main;
   background-color: white;
-  img {
+
+  #profile {
     border: 6px solid black;
   }
 }
 footer{
+  grid-area: footer;
   background-color: #3a3a3a;
   p{
     color: white;
