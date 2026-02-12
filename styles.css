@@ -6,9 +6,23 @@ body{
   display: grid;
   grid-template-areas:
   'nav header logo'
-  'main main profile'
+  'main main main'
   'footer footer footer';
   background-color: #ffffff;
+}
+nav{
+  grid-area: nav;
+  background-color: black;
+   p{
+    font-family: "SN Pro", sans-serif;
+    color: gold;
+    padding-left: 10px;
+  }
+  a {
+    font-family: "SN Pro", sans-serif;
+    color: gold;
+    padding-left: 10px;
+  } 
 }
 header {
   grid-area: header;
@@ -31,21 +45,8 @@ header {
     height: 110px;
   }
 }
-nav{
-  grid-area: nav;
-  background-color: black;
-   p{
-    font-family: "SN Pro", sans-serif;
-    color: gold;
-    padding-left: 10px;
-  }
-  a {
-    font-family: "SN Pro", sans-serif;
-    color: gold;
-    padding-left: 10px;
-  } 
-}
 main {
+  grid-area: main;
   background-color: white;
   #profile {
     border: 6px solid black;
