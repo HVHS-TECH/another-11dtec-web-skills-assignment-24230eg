@@ -7,6 +7,8 @@ body{
   grid-template-areas:
   'nav header logo'
   'mihi mihi profile'
+  'paragraph paragraph paragraph'
+  'lists lists lists'
   'footer footer footer';
   background-color: #ffffff;
 }
@@ -72,9 +74,40 @@ body{
     font-family: "SN Pro", sans-serif;
   }
 }
+.paragraph{
+  grid-area: paragraph;
+  background-color: white;
+  h1{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+  }
+  p{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+    width: 80%;
+  }
+}
+.lists{
+  grid-area: lists;
+  background-color: white;
+  h1{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+  }
+  h3{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+    width: 80%;
+  }
+  p{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+    width: 80%;
+  }
+}
 footer{
   grid-area: footer;
-  background-color: #3a3a3a;
+  background-image: ;
   p{
     color: white;
     padding-left: 4px;
