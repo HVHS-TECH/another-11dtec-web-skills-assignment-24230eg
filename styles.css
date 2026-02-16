@@ -6,11 +6,11 @@ body{
   display: grid;
   grid-template-areas:
   'nav header logo'
-  'main main main'
+  'mihi mihi profile'
   'footer footer footer';
   background-color: #ffffff;
 }
-nav{
+.nav{
   grid-area: nav;
   background-color: black;
    p{
@@ -24,7 +24,7 @@ nav{
     padding-left: 10px;
   } 
 }
-header {
+.header {
   grid-area: header;
   text-align: center;
   background-color: black;
@@ -45,11 +45,31 @@ header {
     height: 110px;
   }
 }
-main {
-  grid-area: main;
+.mihi {
+  grid-area: mihi;
+  background-color: white;
+  h1{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+  }
+  h3{
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+  }
+}
+.profile{
+  grid-area: profile;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: white;
   #profile {
+    margin: 10px;
+    margin-bottom: 0px;
     border: 6px solid black;
+  }
+  h2{
+    font-family: "SN Pro", sans-serif;
   }
 }
 footer{
