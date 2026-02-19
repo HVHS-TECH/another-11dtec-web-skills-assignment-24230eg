@@ -12,7 +12,14 @@ body{
   'footer footer footer';
   background-color: #ffffff;
 }
-.nav{
+.container2 {
+  display: grid;
+  grid-template-areas:
+  'nav header logo'
+  'footer footer footer';
+  background-color: #ffffff;
+}
+.nav {
   grid-area: nav;
   background-color: black;
    p{
@@ -60,7 +67,7 @@ body{
     padding-left: 10px;
   }
 }
-.profile{
+.profile {
   grid-area: profile;
   justify-content: center;
   align-items: center;
@@ -75,7 +82,7 @@ body{
     font-family: "SN Pro", sans-serif;
   }
 }
-.paragraph{
+.paragraph {
   grid-area: paragraph;
   background-color: white;
   h1{
@@ -88,7 +95,7 @@ body{
     width: 80%;
   }
 }
-.lists{
+.lists {
   grid-area: lists;
   background-color: white;
   h1{
@@ -98,19 +105,21 @@ body{
   h3{
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
-    width: 80%;
   }
   p{
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
-    width: 80%;
+  }
+  li{
+    font-family: "SN Pro", sans-serif;
   }
 }
-footer{
+footer {
   grid-area: footer;
   background-image: url(footer.jpg);
   p{
     color: white;
+    font-family: "SN Pro", sans-serif;
     text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;
     padding-left: 4px;
   }
