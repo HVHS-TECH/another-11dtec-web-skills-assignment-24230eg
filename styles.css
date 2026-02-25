@@ -127,19 +127,23 @@ footer {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
+  h2 {
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+  }
   #apple {
     margin: 0px;
     border: 5px solid black;
-    height: 256px;
+    height: 512px;
   }
   #hvhs {
     margin: 0px;
     border: 5px solid black;
-    height: 256px;
+    height: 512px;
   }
   #seal {
     margin: 0px;
     border: 5px solid black;
-    height: 256px;
+    height: 512px;
   }
 }
