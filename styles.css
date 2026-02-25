@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -23,12 +23,6 @@ body{
 .nav {
   grid-area: nav;
   background-color: black;
-   p{
-    font-family: "SN Pro", sans-serif;
-    color: gold;
-    padding-left: 10px;
-    margin: 0%;
-  }
   a {
     font-family: "SN Pro", sans-serif;
     color: gold;
@@ -50,7 +44,7 @@ body{
 .logo {
   grid-area: logo;
   background-color: black;
-  img{
+  img {
     float: right;
     width: 110px;
     height: 110px;
@@ -59,11 +53,11 @@ body{
 .mihi {
   grid-area: mihi;
   background-color: white;
-  h1{
+  h1 {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
-  h3{
+  h3 {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
@@ -79,18 +73,18 @@ body{
     margin-bottom: 0px;
     border: 6px solid black;
   }
-  h2{
+  h2 {
     font-family: "SN Pro", sans-serif;
   }
 }
 .paragraph {
   grid-area: paragraph;
   background-color: white;
-  h1{
+  h1 {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
-  p{
+  p {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
     width: 80%;
@@ -99,29 +93,53 @@ body{
 .lists {
   grid-area: lists;
   background-color: white;
-  h1{
+  h1 {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
-  h3{
+  h3 {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
-  p{
+  p {
     font-family: "SN Pro", sans-serif;
     padding-left: 10px;
   }
-  li{
+  li {
     font-family: "SN Pro", sans-serif;
   }
 }
 footer {
   grid-area: footer;
   background-image: url(footer.jpg);
-  p{
+  text-align: right;
+  p {
     color: white;
     font-family: "SN Pro", sans-serif;
     text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;
-    padding-left: 4px;
+    padding-right: 10px;
+  }
+}
+.main {
+  grid-area: main;
+  background-color: white;
+  h1 {
+    font-family: "SN Pro", sans-serif;
+    padding-left: 10px;
+  }
+  #apple {
+    margin: 0px;
+    border: 5px solid black;
+    height: 256px;
+  }
+  #hvhs {
+    margin: 0px;
+    border: 5px solid black;
+    height: 256px;
+  }
+  #seal {
+    margin: 0px;
+    border: 5px solid black;
+    height: 256px;
   }
 }
