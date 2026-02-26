@@ -48,6 +48,7 @@ body {
     float: right;
     width: 110px;
     height: 110px;
+    font-family: "SN Pro", sans-serif;
   }
 }
 .mihi {
@@ -69,9 +70,11 @@ body {
   text-align: center;
   background-color: white;
   #profile {
+    width: 75%;
     margin: 10px;
     margin-bottom: 0px;
     border: 6px solid black;
+    font-family: "SN Pro", sans-serif;
   }
   h2 {
     font-family: "SN Pro", sans-serif;
@@ -135,15 +138,18 @@ footer {
     margin: 0px;
     border: 5px solid black;
     height: 512px;
+    font-family: "SN Pro", sans-serif;
   }
   #hvhs {
     margin: 0px;
     border: 5px solid black;
     height: 512px;
+    font-family: "SN Pro", sans-serif;
   }
   #seal {
     margin: 0px;
     border: 5px solid black;
     height: 512px;
+    font-family: "SN Pro", sans-serif;
   }
 }
